@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B59A784014BA194600B535AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59A783F14BA194600B535AF /* UIKit.framework */; };
+		B59A784214BA194600B535AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59A784114BA194600B535AF /* Foundation.framework */; };
+		B59A784414BA194600B535AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59A784314BA194600B535AF /* CoreGraphics.framework */; };
+		B59A784A14BA194600B535AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B59A784814BA194600B535AF /* InfoPlist.strings */; };
+		B59A784C14BA194600B535AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B59A784B14BA194600B535AF /* main.m */; };
+		B59A785014BA194600B535AF /* MADNJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B59A784F14BA194600B535AF /* MADNJAppDelegate.m */; };
+		B59A785314BA194600B535AF /* MADNJFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59A785214BA194600B535AF /* MADNJFirstViewController.m */; };
+		B59A785514BA194600B535AF /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = B59A785414BA194600B535AF /* first.png */; };
+		B59A785714BA194600B535AF /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B59A785614BA194600B535AF /* first@2x.png */; };
+		B59A785A14BA194600B535AF /* MADNJSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59A785914BA194600B535AF /* MADNJSecondViewController.m */; };
+		B59A785C14BA194600B535AF /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = B59A785B14BA194600B535AF /* second.png */; };
+		B59A785E14BA194600B535AF /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B59A785D14BA194600B535AF /* second@2x.png */; };
+		B59A786C14BA194600B535AF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59A786B14BA194600B535AF /* SenTestingKit.framework */; };
+		B59A786D14BA194600B535AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59A783F14BA194600B535AF /* UIKit.framework */; };
+		B59A786E14BA194600B535AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B59A784114BA194600B535AF /* Foundation.framework */; };
+		B59A787614BA194600B535AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B59A787414BA194600B535AF /* InfoPlist.strings */; };
+		B59A787914BA194600B535AF /* madNJStoryboardAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B59A787814BA194600B535AF /* madNJStoryboardAppTests.m */; };
+		B59A789B14BA1A7B00B535AF /* 1Star.png in Resources */ = {isa = PBXBuildFile; fileRef = B59A788314BA1A7B00B535AF /* 1Star.png */; };
+		B59A789C14BA1A7B00B535AF /* 1Star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B59A788414BA1A7B00B535AF /* 1Star@2x.png */; };
+		B59A789D14BA1A7B00B535AF /* 1StarSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = B59A788514BA1A7B00B535AF /* 1StarSmall.png */; };
+		B59A789E14BA1A7B00B535AF /* 1StarSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B59A788614BA1A7B00B535AF /* 1StarSmall@2x.png */; };
+		B59A789F14BA1A7B00B535AF /* 2Stars.png in Resources */ = {isa = PBXBuildFile; fileRef = B59A788714BA1A7B00B535AF /* 2Stars.png */; };
+		B59A78A014BA1A7B00B535AF /* 2Stars@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B59A788814BA1A7B00B535AF /* 2Stars@2x.png */; };
+		B59A78A114BA1A7B00B535AF /* 2StarsSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = B59A788914BA1A7B00B535AF /* 2StarsSmall.png */; };
+		B59A78A214BA1A7B00B535AF /* 2StarsSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B59A788A14BA1A7B00B535AF /* 2StarsSmall@2x.png */; };
+		B59A78A314BA1A7B00B535AF /* 3Stars.png in Resources */ = {isa = PBXBuildFile; fileRef = B59A788B14BA1A7B00B535AF /* 3Stars.png */; };
+		B59A78A414BA1A7B00B535AF /* 3Stars@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B59A788C14BA1A7B00B535AF /* 3Stars@2x.png */; };
+		B59A78A514BA1A7B00B535AF /* 3StarsSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = B59A788D14BA1A7B00B535AF /* 3StarsSmall.png */; };
+		B59A78A614BA1A7B00B535AF /* 3StarsSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B59A788E14BA1A7B00B535AF /* 3StarsSmall@2x.png */; };
+		B59A78A714BA1A7B00B535AF /* 4Stars.png in Resources */ = {isa = PBXBuildFile; fileRef = B59A788F14BA1A7B00B535AF /* 4Stars.png */; };
+		B59A78A814BA1A7B00B535AF /* 4Stars@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B59A789014BA1A7B00B535AF /* 4Stars@2x.png */; };
+		B59A78A914BA1A7B00B535AF /* 4StarsSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = B59A789114BA1A7B00B535AF /* 4StarsSmall.png */; };
+		B59A78AA14BA1A7B00B535AF /* 4StarsSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B59A789214BA1A7B00B535AF /* 4StarsSmall@2x.png */; };
+		B59A78AB14BA1A7B00B535AF /* 5Stars.png in Resources */ = {isa = PBXBuildFile; fileRef = B59A789314BA1A7B00B535AF /* 5Stars.png */; };
+		B59A78AC14BA1A7B00B535AF /* 5Stars@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B59A789414BA1A7B00B535AF /* 5Stars@2x.png */; };
+		B59A78AD14BA1A7B00B535AF /* 5StarsSmall.png in Resources */ = {isa = PBXBuildFile; fileRef = B59A789514BA1A7B00B535AF /* 5StarsSmall.png */; };
+		B59A78AE14BA1A7B00B535AF /* 5StarsSmall@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B59A789614BA1A7B00B535AF /* 5StarsSmall@2x.png */; };
+		B59A78AF14BA1A7B00B535AF /* Gestures.png in Resources */ = {isa = PBXBuildFile; fileRef = B59A789714BA1A7B00B535AF /* Gestures.png */; };
+		B59A78B014BA1A7B00B535AF /* Gestures@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B59A789814BA1A7B00B535AF /* Gestures@2x.png */; };
+		B59A78B114BA1A7B00B535AF /* Players.png in Resources */ = {isa = PBXBuildFile; fileRef = B59A789914BA1A7B00B535AF /* Players.png */; };
+		B59A78B214BA1A7B00B535AF /* Players@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B59A789A14BA1A7B00B535AF /* Players@2x.png */; };
+		B59A78B514BA1B7000B535AF /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = B59A78B314BA1B7000B535AF /* Player.m */; };
+		B59A78BB14BA240900B535AF /* GamePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59A78BA14BA240900B535AF /* GamePickerViewController.m */; };
+		B59A78CF14BA473200B535AF /* PlayerDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B59A78CE14BA473200B535AF /* PlayerDetailsViewController.m */; };
+		B5B492E114C64E7B0068EF9C /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5B492E014C64E7B0068EF9C /* Storyboard.storyboard */; };
+		B5B492E314C64F9C0068EF9C /* mobileDevNJ_logo_1.png in Resources */ = {isa = PBXBuildFile; fileRef = B5B492E214C64F9C0068EF9C /* mobileDevNJ_logo_1.png */; };
+		B5B492E614C650E00068EF9C /* PlayerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B492E514C650E00068EF9C /* PlayerCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B59A786F14BA194600B535AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B59A783214BA194600B535AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B59A783A14BA194600B535AF;
+			remoteInfo = madNJStoryboardApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B59A783B14BA194600B535AF /* madNJStoryboardApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = madNJStoryboardApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59A783F14BA194600B535AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B59A784114BA194600B535AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B59A784314BA194600B535AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B59A784714BA194600B535AF /* madNJStoryboardApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "madNJStoryboardApp-Info.plist"; sourceTree = "<group>"; };
+		B59A784914BA194600B535AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B59A784B14BA194600B535AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B59A784D14BA194600B535AF /* madNJStoryboardApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "madNJStoryboardApp-Prefix.pch"; sourceTree = "<group>"; };
+		B59A784E14BA194600B535AF /* MADNJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADNJAppDelegate.h; sourceTree = "<group>"; };
+		B59A784F14BA194600B535AF /* MADNJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADNJAppDelegate.m; sourceTree = "<group>"; };
+		B59A785114BA194600B535AF /* MADNJFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADNJFirstViewController.h; sourceTree = "<group>"; };
+		B59A785214BA194600B535AF /* MADNJFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADNJFirstViewController.m; sourceTree = "<group>"; };
+		B59A785414BA194600B535AF /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		B59A785614BA194600B535AF /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		B59A785814BA194600B535AF /* MADNJSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MADNJSecondViewController.h; sourceTree = "<group>"; };
+		B59A785914BA194600B535AF /* MADNJSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MADNJSecondViewController.m; sourceTree = "<group>"; };
+		B59A785B14BA194600B535AF /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		B59A785D14BA194600B535AF /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		B59A786A14BA194600B535AF /* madNJStoryboardAppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = madNJStoryboardAppTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B59A786B14BA194600B535AF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B59A787314BA194600B535AF /* madNJStoryboardAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "madNJStoryboardAppTests-Info.plist"; sourceTree = "<group>"; };
+		B59A787514BA194600B535AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B59A787714BA194600B535AF /* madNJStoryboardAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = madNJStoryboardAppTests.h; sourceTree = "<group>"; };
+		B59A787814BA194600B535AF /* madNJStoryboardAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = madNJStoryboardAppTests.m; sourceTree = "<group>"; };
+		B59A788314BA1A7B00B535AF /* 1Star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1Star.png; sourceTree = "<group>"; };
+		B59A788414BA1A7B00B535AF /* 1Star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1Star@2x.png"; sourceTree = "<group>"; };
+		B59A788514BA1A7B00B535AF /* 1StarSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1StarSmall.png; sourceTree = "<group>"; };
+		B59A788614BA1A7B00B535AF /* 1StarSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1StarSmall@2x.png"; sourceTree = "<group>"; };
+		B59A788714BA1A7B00B535AF /* 2Stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2Stars.png; sourceTree = "<group>"; };
+		B59A788814BA1A7B00B535AF /* 2Stars@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2Stars@2x.png"; sourceTree = "<group>"; };
+		B59A788914BA1A7B00B535AF /* 2StarsSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2StarsSmall.png; sourceTree = "<group>"; };
+		B59A788A14BA1A7B00B535AF /* 2StarsSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2StarsSmall@2x.png"; sourceTree = "<group>"; };
+		B59A788B14BA1A7B00B535AF /* 3Stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3Stars.png; sourceTree = "<group>"; };
+		B59A788C14BA1A7B00B535AF /* 3Stars@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3Stars@2x.png"; sourceTree = "<group>"; };
+		B59A788D14BA1A7B00B535AF /* 3StarsSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3StarsSmall.png; sourceTree = "<group>"; };
+		B59A788E14BA1A7B00B535AF /* 3StarsSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3StarsSmall@2x.png"; sourceTree = "<group>"; };
+		B59A788F14BA1A7B00B535AF /* 4Stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4Stars.png; sourceTree = "<group>"; };
+		B59A789014BA1A7B00B535AF /* 4Stars@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4Stars@2x.png"; sourceTree = "<group>"; };
+		B59A789114BA1A7B00B535AF /* 4StarsSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4StarsSmall.png; sourceTree = "<group>"; };
+		B59A789214BA1A7B00B535AF /* 4StarsSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "4StarsSmall@2x.png"; sourceTree = "<group>"; };
+		B59A789314BA1A7B00B535AF /* 5Stars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5Stars.png; sourceTree = "<group>"; };
+		B59A789414BA1A7B00B535AF /* 5Stars@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5Stars@2x.png"; sourceTree = "<group>"; };
+		B59A789514BA1A7B00B535AF /* 5StarsSmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5StarsSmall.png; sourceTree = "<group>"; };
+		B59A789614BA1A7B00B535AF /* 5StarsSmall@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5StarsSmall@2x.png"; sourceTree = "<group>"; };
+		B59A789714BA1A7B00B535AF /* Gestures.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gestures.png; sourceTree = "<group>"; };
+		B59A789814BA1A7B00B535AF /* Gestures@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Gestures@2x.png"; sourceTree = "<group>"; };
+		B59A789914BA1A7B00B535AF /* Players.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Players.png; sourceTree = "<group>"; };
+		B59A789A14BA1A7B00B535AF /* Players@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Players@2x.png"; sourceTree = "<group>"; };
+		B59A78B314BA1B7000B535AF /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		B59A78B414BA1B7000B535AF /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		B59A78B914BA240900B535AF /* GamePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GamePickerViewController.h; sourceTree = "<group>"; };
+		B59A78BA14BA240900B535AF /* GamePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GamePickerViewController.m; sourceTree = "<group>"; };
+		B59A78CD14BA473100B535AF /* PlayerDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerDetailsViewController.h; sourceTree = "<group>"; };
+		B59A78CE14BA473200B535AF /* PlayerDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerDetailsViewController.m; sourceTree = "<group>"; };
+		B5B492E014C64E7B0068EF9C /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		B5B492E214C64F9C0068EF9C /* mobileDevNJ_logo_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mobileDevNJ_logo_1.png; sourceTree = "<group>"; };
+		B5B492E414C650E00068EF9C /* PlayerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerCell.h; sourceTree = "<group>"; };
+		B5B492E514C650E00068EF9C /* PlayerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B59A783814BA194600B535AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59A784014BA194600B535AF /* UIKit.framework in Frameworks */,
+				B59A784214BA194600B535AF /* Foundation.framework in Frameworks */,
+				B59A784414BA194600B535AF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B59A786614BA194600B535AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59A786C14BA194600B535AF /* SenTestingKit.framework in Frameworks */,
+				B59A786D14BA194600B535AF /* UIKit.framework in Frameworks */,
+				B59A786E14BA194600B535AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B59A783014BA194600B535AF = {
+			isa = PBXGroup;
+			children = (
+				B5B492E014C64E7B0068EF9C /* Storyboard.storyboard */,
+				B5B492E414C650E00068EF9C /* PlayerCell.h */,
+				B5B492E514C650E00068EF9C /* PlayerCell.m */,
+				B5B492E214C64F9C0068EF9C /* mobileDevNJ_logo_1.png */,
+				B59A78CD14BA473100B535AF /* PlayerDetailsViewController.h */,
+				B59A78CE14BA473200B535AF /* PlayerDetailsViewController.m */,
+				B59A784514BA194600B535AF /* madNJStoryboardApp */,
+				B59A787114BA194600B535AF /* madNJStoryboardAppTests */,
+				B59A783E14BA194600B535AF /* Frameworks */,
+				B59A783C14BA194600B535AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B59A783C14BA194600B535AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B59A783B14BA194600B535AF /* madNJStoryboardApp.app */,
+				B59A786A14BA194600B535AF /* madNJStoryboardAppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B59A783E14BA194600B535AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B59A783F14BA194600B535AF /* UIKit.framework */,
+				B59A784114BA194600B535AF /* Foundation.framework */,
+				B59A784314BA194600B535AF /* CoreGraphics.framework */,
+				B59A786B14BA194600B535AF /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B59A784514BA194600B535AF /* madNJStoryboardApp */ = {
+			isa = PBXGroup;
+			children = (
+				B59A784E14BA194600B535AF /* MADNJAppDelegate.h */,
+				B59A784F14BA194600B535AF /* MADNJAppDelegate.m */,
+				B59A785114BA194600B535AF /* MADNJFirstViewController.h */,
+				B59A785214BA194600B535AF /* MADNJFirstViewController.m */,
+				B59A78B914BA240900B535AF /* GamePickerViewController.h */,
+				B59A78BA14BA240900B535AF /* GamePickerViewController.m */,
+				B59A78B314BA1B7000B535AF /* Player.m */,
+				B59A78B414BA1B7000B535AF /* Player.h */,
+				B59A785414BA194600B535AF /* first.png */,
+				B59A785614BA194600B535AF /* first@2x.png */,
+				B59A785814BA194600B535AF /* MADNJSecondViewController.h */,
+				B59A785914BA194600B535AF /* MADNJSecondViewController.m */,
+				B59A785B14BA194600B535AF /* second.png */,
+				B59A785D14BA194600B535AF /* second@2x.png */,
+				B59A788214BA1A7B00B535AF /* StoryboardAssets */,
+				B59A784614BA194600B535AF /* Supporting Files */,
+			);
+			path = madNJStoryboardApp;
+			sourceTree = "<group>";
+		};
+		B59A784614BA194600B535AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B59A784714BA194600B535AF /* madNJStoryboardApp-Info.plist */,
+				B59A784814BA194600B535AF /* InfoPlist.strings */,
+				B59A784B14BA194600B535AF /* main.m */,
+				B59A784D14BA194600B535AF /* madNJStoryboardApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B59A787114BA194600B535AF /* madNJStoryboardAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B59A787714BA194600B535AF /* madNJStoryboardAppTests.h */,
+				B59A787814BA194600B535AF /* madNJStoryboardAppTests.m */,
+				B59A787214BA194600B535AF /* Supporting Files */,
+			);
+			path = madNJStoryboardAppTests;
+			sourceTree = "<group>";
+		};
+		B59A787214BA194600B535AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B59A787314BA194600B535AF /* madNJStoryboardAppTests-Info.plist */,
+				B59A787414BA194600B535AF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B59A788214BA1A7B00B535AF /* StoryboardAssets */ = {
+			isa = PBXGroup;
+			children = (
+				B59A788314BA1A7B00B535AF /* 1Star.png */,
+				B59A788414BA1A7B00B535AF /* 1Star@2x.png */,
+				B59A788514BA1A7B00B535AF /* 1StarSmall.png */,
+				B59A788614BA1A7B00B535AF /* 1StarSmall@2x.png */,
+				B59A788714BA1A7B00B535AF /* 2Stars.png */,
+				B59A788814BA1A7B00B535AF /* 2Stars@2x.png */,
+				B59A788914BA1A7B00B535AF /* 2StarsSmall.png */,
+				B59A788A14BA1A7B00B535AF /* 2StarsSmall@2x.png */,
+				B59A788B14BA1A7B00B535AF /* 3Stars.png */,
+				B59A788C14BA1A7B00B535AF /* 3Stars@2x.png */,
+				B59A788D14BA1A7B00B535AF /* 3StarsSmall.png */,
+				B59A788E14BA1A7B00B535AF /* 3StarsSmall@2x.png */,
+				B59A788F14BA1A7B00B535AF /* 4Stars.png */,
+				B59A789014BA1A7B00B535AF /* 4Stars@2x.png */,
+				B59A789114BA1A7B00B535AF /* 4StarsSmall.png */,
+				B59A789214BA1A7B00B535AF /* 4StarsSmall@2x.png */,
+				B59A789314BA1A7B00B535AF /* 5Stars.png */,
+				B59A789414BA1A7B00B535AF /* 5Stars@2x.png */,
+				B59A789514BA1A7B00B535AF /* 5StarsSmall.png */,
+				B59A789614BA1A7B00B535AF /* 5StarsSmall@2x.png */,
+				B59A789714BA1A7B00B535AF /* Gestures.png */,
+				B59A789814BA1A7B00B535AF /* Gestures@2x.png */,
+				B59A789914BA1A7B00B535AF /* Players.png */,
+				B59A789A14BA1A7B00B535AF /* Players@2x.png */,
+			);
+			path = StoryboardAssets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B59A783A14BA194600B535AF /* madNJStoryboardApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B59A787C14BA194600B535AF /* Build configuration list for PBXNativeTarget "madNJStoryboardApp" */;
+			buildPhases = (
+				B59A783714BA194600B535AF /* Sources */,
+				B59A783814BA194600B535AF /* Frameworks */,
+				B59A783914BA194600B535AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = madNJStoryboardApp;
+			productName = madNJStoryboardApp;
+			productReference = B59A783B14BA194600B535AF /* madNJStoryboardApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B59A786914BA194600B535AF /* madNJStoryboardAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B59A787F14BA194600B535AF /* Build configuration list for PBXNativeTarget "madNJStoryboardAppTests" */;
+			buildPhases = (
+				B59A786514BA194600B535AF /* Sources */,
+				B59A786614BA194600B535AF /* Frameworks */,
+				B59A786714BA194600B535AF /* Resources */,
+				B59A786814BA194600B535AF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B59A787014BA194600B535AF /* PBXTargetDependency */,
+			);
+			name = madNJStoryboardAppTests;
+			productName = madNJStoryboardAppTests;
+			productReference = B59A786A14BA194600B535AF /* madNJStoryboardAppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B59A783214BA194600B535AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Kaliware, LLC";
+			};
+			buildConfigurationList = B59A783514BA194600B535AF /* Build configuration list for PBXProject "madNJStoryboardApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B59A783014BA194600B535AF;
+			productRefGroup = B59A783C14BA194600B535AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B59A783A14BA194600B535AF /* madNJStoryboardApp */,
+				B59A786914BA194600B535AF /* madNJStoryboardAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B59A783914BA194600B535AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59A784A14BA194600B535AF /* InfoPlist.strings in Resources */,
+				B59A785514BA194600B535AF /* first.png in Resources */,
+				B59A785714BA194600B535AF /* first@2x.png in Resources */,
+				B59A785C14BA194600B535AF /* second.png in Resources */,
+				B59A785E14BA194600B535AF /* second@2x.png in Resources */,
+				B59A789B14BA1A7B00B535AF /* 1Star.png in Resources */,
+				B59A789C14BA1A7B00B535AF /* 1Star@2x.png in Resources */,
+				B59A789D14BA1A7B00B535AF /* 1StarSmall.png in Resources */,
+				B59A789E14BA1A7B00B535AF /* 1StarSmall@2x.png in Resources */,
+				B59A789F14BA1A7B00B535AF /* 2Stars.png in Resources */,
+				B59A78A014BA1A7B00B535AF /* 2Stars@2x.png in Resources */,
+				B59A78A114BA1A7B00B535AF /* 2StarsSmall.png in Resources */,
+				B59A78A214BA1A7B00B535AF /* 2StarsSmall@2x.png in Resources */,
+				B59A78A314BA1A7B00B535AF /* 3Stars.png in Resources */,
+				B59A78A414BA1A7B00B535AF /* 3Stars@2x.png in Resources */,
+				B59A78A514BA1A7B00B535AF /* 3StarsSmall.png in Resources */,
+				B59A78A614BA1A7B00B535AF /* 3StarsSmall@2x.png in Resources */,
+				B59A78A714BA1A7B00B535AF /* 4Stars.png in Resources */,
+				B59A78A814BA1A7B00B535AF /* 4Stars@2x.png in Resources */,
+				B59A78A914BA1A7B00B535AF /* 4StarsSmall.png in Resources */,
+				B59A78AA14BA1A7B00B535AF /* 4StarsSmall@2x.png in Resources */,
+				B59A78AB14BA1A7B00B535AF /* 5Stars.png in Resources */,
+				B59A78AC14BA1A7B00B535AF /* 5Stars@2x.png in Resources */,
+				B59A78AD14BA1A7B00B535AF /* 5StarsSmall.png in Resources */,
+				B59A78AE14BA1A7B00B535AF /* 5StarsSmall@2x.png in Resources */,
+				B59A78AF14BA1A7B00B535AF /* Gestures.png in Resources */,
+				B59A78B014BA1A7B00B535AF /* Gestures@2x.png in Resources */,
+				B59A78B114BA1A7B00B535AF /* Players.png in Resources */,
+				B59A78B214BA1A7B00B535AF /* Players@2x.png in Resources */,
+				B5B492E114C64E7B0068EF9C /* Storyboard.storyboard in Resources */,
+				B5B492E314C64F9C0068EF9C /* mobileDevNJ_logo_1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B59A786714BA194600B535AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59A787614BA194600B535AF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B59A786814BA194600B535AF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B59A783714BA194600B535AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59A784C14BA194600B535AF /* main.m in Sources */,
+				B59A785014BA194600B535AF /* MADNJAppDelegate.m in Sources */,
+				B59A785314BA194600B535AF /* MADNJFirstViewController.m in Sources */,
+				B59A785A14BA194600B535AF /* MADNJSecondViewController.m in Sources */,
+				B59A78B514BA1B7000B535AF /* Player.m in Sources */,
+				B59A78BB14BA240900B535AF /* GamePickerViewController.m in Sources */,
+				B59A78CF14BA473200B535AF /* PlayerDetailsViewController.m in Sources */,
+				B5B492E614C650E00068EF9C /* PlayerCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B59A786514BA194600B535AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B59A787914BA194600B535AF /* madNJStoryboardAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B59A787014BA194600B535AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B59A783A14BA194600B535AF /* madNJStoryboardApp */;
+			targetProxy = B59A786F14BA194600B535AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B59A784814BA194600B535AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B59A784914BA194600B535AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B59A787414BA194600B535AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B59A787514BA194600B535AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B59A787A14BA194600B535AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B59A787B14BA194600B535AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B59A787D14BA194600B535AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "madNJStoryboardApp/madNJStoryboardApp-Prefix.pch";
+				INFOPLIST_FILE = "madNJStoryboardApp/madNJStoryboardApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B59A787E14BA194600B535AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "madNJStoryboardApp/madNJStoryboardApp-Prefix.pch";
+				INFOPLIST_FILE = "madNJStoryboardApp/madNJStoryboardApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B59A788014BA194600B535AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/madNJStoryboardApp.app/madNJStoryboardApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "madNJStoryboardApp/madNJStoryboardApp-Prefix.pch";
+				INFOPLIST_FILE = "madNJStoryboardAppTests/madNJStoryboardAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B59A788114BA194600B535AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/madNJStoryboardApp.app/madNJStoryboardApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "madNJStoryboardApp/madNJStoryboardApp-Prefix.pch";
+				INFOPLIST_FILE = "madNJStoryboardAppTests/madNJStoryboardAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B59A783514BA194600B535AF /* Build configuration list for PBXProject "madNJStoryboardApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B59A787A14BA194600B535AF /* Debug */,
+				B59A787B14BA194600B535AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B59A787C14BA194600B535AF /* Build configuration list for PBXNativeTarget "madNJStoryboardApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B59A787D14BA194600B535AF /* Debug */,
+				B59A787E14BA194600B535AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B59A787F14BA194600B535AF /* Build configuration list for PBXNativeTarget "madNJStoryboardAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B59A788014BA194600B535AF /* Debug */,
+				B59A788114BA194600B535AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B59A783214BA194600B535AF /* Project object */;
+}
